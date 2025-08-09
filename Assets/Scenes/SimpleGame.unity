@@ -97,7 +97,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 5a688209cfd4851448db4f4a4234aa0d, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -273,7 +273,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -704,7 +704,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -1340,6 +1340,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 13.02
       objectReference: {fileID: 0}
+    - target: {fileID: 1235714903279140356, guid: 7e77dd1fbae547446a4fca5477f4cba1, type: 3}
+      propertyPath: m_Intensity
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1235714903279140356, guid: 7e77dd1fbae547446a4fca5477f4cba1, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2729941728203834095, guid: 7e77dd1fbae547446a4fca5477f4cba1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 26.83
@@ -1396,6 +1404,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6471910306988502493, guid: 7e77dd1fbae547446a4fca5477f4cba1, type: 3}
+      propertyPath: m_Intensity
+      value: 0.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 6471910306988502493, guid: 7e77dd1fbae547446a4fca5477f4cba1, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6733043876358869191, guid: 7e77dd1fbae547446a4fca5477f4cba1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.33
@@ -1407,6 +1423,14 @@ PrefabInstance:
     - target: {fileID: 6733043876358869191, guid: 7e77dd1fbae547446a4fca5477f4cba1, type: 3}
       propertyPath: m_LocalPosition.z
       value: -12.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8940504434538347425, guid: 7e77dd1fbae547446a4fca5477f4cba1, type: 3}
+      propertyPath: m_Intensity
+      value: 1.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8940504434538347425, guid: 7e77dd1fbae547446a4fca5477f4cba1, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
